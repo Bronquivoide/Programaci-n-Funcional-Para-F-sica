@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
     float Va,Vb,d,Xa,t,V;
-    printf("Dame la velocidad del vehículo A en km/h\n");
+    printf("Dame la velocidad del vehÃ­culo A en km/h\n");
     scanf("%f",&Va);
-    printf("Dame la velocidad del vehículo B en km/h\n");
+    printf("Dame la velocidad del vehÃ­culo B en km/h\n");
     scanf("%f",&Vb);
-    printf("Dame la distancia de separación entre ciudades en km\n");
+    printf("Dame la distancia de separaciÃ³n entre ciudades en km\n");
     scanf("%f",&d);
 t=(d/(Va+Vb))*3600;
 V=Va/3.6;
